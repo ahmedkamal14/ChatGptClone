@@ -23,6 +23,13 @@ export const Welcome = () => {
           Sign up
         </Link>
       </div>
+
+      <Link
+        to={"/ChatGptClone/main"}
+        className="bg-primary  px-[14px] py-[9px] rounded-[4px] hover:bg-primary/80 transition-all duration-300 mt-12"
+      >
+        Main Chat Screen
+      </Link>
     </div>
   );
 };
