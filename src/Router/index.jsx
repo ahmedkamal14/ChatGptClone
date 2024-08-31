@@ -11,11 +11,11 @@ const router = createBrowserRouter([
     element: <Welcome />,
   },
   {
-    path: "/ChatGptClone/login",
+    path: "/ChatGptClone/login/",
     element: <Login />,
   },
   {
-    path: "/ChatGptClone/main",
+    path: "/ChatGptClone/main/",
     element: <Main />,
   },
 ]);

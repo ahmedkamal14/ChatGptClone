@@ -11,13 +11,13 @@ export const Welcome = () => {
       </p>
       <div className="account-buttons text-[14px] flex gap-[12px] mt-[14px]">
         <Link
-          to={"/ChatGptClone/login"}
+          to={"/ChatGptClone/login/"}
           className="bg-primary  px-[14px] py-[9px] rounded-[4px] hover:bg-primary/80 transition-all duration-300"
         >
           Log in
         </Link>
         <Link
-          to={"/ChatGptClone/signup"}
+          to={"/ChatGptClone/signup/"}
           className="bg-primary  px-[14px] py-[9px] rounded-[4px] hover:bg-primary/80 transition-all duration-300"
         >
           Sign up
@@ -25,7 +25,7 @@ export const Welcome = () => {
       </div>
 
       <Link
-        to={"/ChatGptClone/main"}
+        to={"/ChatGptClone/main/"}
         className="bg-primary  px-[14px] py-[9px] rounded-[4px] hover:bg-primary/80 transition-all duration-300 mt-12"
       >
         Main Chat Screen
